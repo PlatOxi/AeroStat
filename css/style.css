@@ -31,8 +31,118 @@
 }
 
 body{
-	min-width: 1200px; 
+	min-width: 1200px;
+	font-family: "Roboto", "Arial", sans-serif;
+	color:#444444;
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 400; 
 }
+/*==========Sprite==========*/
+
+.icon {
+    background-image: url(../img/pict/sprite/sprite.png);
+    background-repeat: no-repeat;
+    display:inline-block;
+    vertical-align: top;
+}
+
+.icon-Ico-like {
+    width: 56px;
+    height: 58px;
+    background-position: -10px -10px;
+}
+
+.icon-Whiti-Arrow-Down {
+    width: 18px;
+    height: 29px;
+    background-position: -86px -10px;
+}
+
+.icon-ico-airobus {
+    width: 41px;
+    height: 40px;
+    background-position: -124px -10px;
+}
+
+.icon-ico-balloon {
+    width: 44px;
+    height: 65px;
+    background-position: -86px -70px;
+}
+
+.icon-ico-binoculars {
+    width: 72px;
+    height: 34px;
+    background-position: -10px -155px;
+}
+
+.icon-ico-email {
+    width: 23px;
+    height: 17px;
+    background-position: -185px -10px;
+}
+
+.icon-ico-faq {
+    width: 40px;
+    height: 34px;
+    background-position: -150px -70px;
+}
+
+.icon-ico-gallery--arrow {
+    width: 20px;
+    height: 33px;
+    background-position: -150px -124px;
+}
+
+.icon-ico-glasses {
+    width: 75px;
+    height: 28px;
+    background-position: -102px -177px;
+}
+
+.icon-ico-map-point {
+    width: 35px;
+    height: 50px;
+    background-position: -228px -10px;
+}
+
+.icon-ico-name {
+    width: 15px;
+    height: 15px;
+    background-position: -210px -80px;
+}
+
+.icon-ico-photo {
+    width: 65px;
+    height: 50px;
+    background-position: -197px -124px;
+}
+
+.icon-ico-socio-fb {
+    width: 22px;
+    height: 23px;
+    background-position: -245px -80px;
+}
+
+.icon-ico-socio-ins {
+    width: 22px;
+    height: 23px;
+    background-position: -197px -194px;
+}
+
+.icon-ico-socio-vk {
+    width: 22px;
+    height: 23px;
+    background-position: -239px -194px;
+}
+
+.icon-ico-tel {
+    width: 19px;
+    height: 19px;
+    background-position: -10px -237px;
+}
+
 
 /*==========container==========*/
 
@@ -48,6 +158,12 @@ body{
 	color: #fff;
 	font-size: 22px;	
 }
+.logo{
+	font-size: 22px;
+	font-weight:500;
+	color: #fff;
+	line-height: 34px;
+}
 .main-navigation{
     color: #fff;
     text-align: right;
@@ -58,17 +174,32 @@ body{
 	text-decoration: none;
 	vertical-align: top;
 	color:#fff;
+	line-height: 22px;
+	padding: 5px 10px;
 	font-size: 18px; 
-	margin-left: 20px;
+	margin-left: 10px;
+	border: 1px solid  transparent;
+}
+.main-navigation__item:hover,
+.main-navigation__item--active{
+	border: 1px solid #fff;
+}
+.main-navigation__item:active{
+
 }
 
 /*==========Promo-block==========*/
 
 .promo-block{
 	padding: 180px 0 95px;
-	background: #acc6dd;
+	background-color: #acc6dd;
 	text-align: center;
 	color: #fff;
+	background-image: url(../img/pict/Promo-block-BG.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;	
+
 }
 
 .promo-block__title{
